@@ -6,19 +6,19 @@
   ],
   "scripts": {
     "install": [
-      "php {HOOKS}/github-test-hook/install.php"
+      "php {HOOKS}/github-test-hook/scripts/install.php"
     ],
     "uninstall": [
-      "php {HOOKS}/github-test-hook/uninstall.php"
+      "php {HOOKS}/github-test-hook/scripts/uninstall.php"
     ],
     "update": [
-      "php {HOOKS}/github-test-hook/update.php"
+      "php {HOOKS}/github-test-hook/scripts/update.php"
     ],
     "enable": [
-      "php {HOOKS}/github-test-hook/enable.php"
+      "php {HOOKS}/github-test-hook/scripts/enable.php"
     ],
     "disable": [
-      "php {HOOKS}/github-test-hook/disable.php"
+      "php {HOOKS}/github-test-hook/scripts/disable.php"
     ]
   }
 }
