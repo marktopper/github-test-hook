@@ -6,24 +6,19 @@
   ],
   "scripts": {
     "install": [
-      "touch scripts.log",
-      "php echo 'installed' > scripts.json"
+      "php {HOOKS}/github-test-hook/install.php"
     ],
     "uninstall": [
-      "touch scripts.log",
-      "php echo 'uninstalled' > scripts.json"
+      "php {HOOKS}/github-test-hook/uninstall.php"
     ],
     "update": [
-      "touch scripts.log",
-      "php echo 'updated' > scripts.json"
+      "php {HOOKS}/github-test-hook/update.php"
     ],
     "enable": [
-      "touch scripts.log",
-      "php echo 'enabled' > scripts.json"
+      "php {HOOKS}/github-test-hook/enable.php"
     ],
     "disable": [
-      "touch scripts.log",
-      "php echo 'disabled' > scripts.json"
+      "php {HOOKS}/github-test-hook/disable.php"
     ]
   }
 }
