@@ -1,0 +1,29 @@
+{
+  "provider": "GithubTestHookServiceProvider",
+  "providers": [
+    "GithubTestHookServiceProviderTwo",
+    "GithubTestHookServiceProviderTree"
+  ],
+  "scripts": {
+    "install": [
+      "touch scripts.log",
+      "php echo 'installed' > scripts.json"
+    ],
+    "uninstall": [
+      "touch scripts.log",
+      "php echo 'uninstalled' > scripts.json"
+    ],
+    "update": [
+      "touch scripts.log",
+      "php echo 'updated' > scripts.json"
+    ],
+    "enable": [
+      "touch scripts.log",
+      "php echo 'enabled' > scripts.json"
+    ],
+    "disable": [
+      "touch scripts.log",
+      "php echo 'disabled' > scripts.json"
+    ]
+  }
+}
