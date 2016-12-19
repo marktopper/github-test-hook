@@ -2,7 +2,7 @@
   "provider": "GithubTestHookServiceProvider",
   "providers": [
     "GithubTestHookServiceProviderTwo",
-    "GithubTestHookServiceProviderTree"
+    "GithubTestHookServiceProvider\\Tree"
   ],
   "scripts": {
     "install": [
