@@ -1,4 +1,6 @@
 {
+  "description": "This is just for testing purpose.",
+  "tags": ["testing-tag"],
   "provider": "GithubTestHookServiceProvider",
   "providers": [
     "GithubTestHookServiceProviderTwo",
